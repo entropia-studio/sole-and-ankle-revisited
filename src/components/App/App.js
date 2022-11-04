@@ -21,15 +21,11 @@ const App = () => {
 
 const Main = styled.main`
   padding: 64px 32px;
-
-  @media (${QUERIES.laptopAndDown}) {
-    /* do stuff */
-  }
   @media (${QUERIES.tabletAndDown}) {
-    /* do stuff */
+    padding: 48px 32px;
   }
   @media (${QUERIES.phoneAndDown}) {
-    /* do stuff */
+    padding: 48px 16px;
   }
 `;
 
